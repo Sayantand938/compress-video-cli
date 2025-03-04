@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "commander": "^13.1.0"
+    "cli-progress": "^3.12.0",
+    "commander": "^13.1.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "fs-extra": "^11.3.0"
   },
   "name": "compress-video-cli",
   "version": "1.0.0",
@@ -9,7 +14,6 @@
   "bin": {
     "compress-video-cli": "bin/cli.js"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
