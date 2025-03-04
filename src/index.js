@@ -88,6 +88,7 @@ export async function compressVideo(inputFilePath) {
     progressBar.start(100, 0);
 
     const ffmpegProcess = spawn(ffmpegPath, [
+      "-y", // Add the -y option here to overwrite output files
       "-i",
       inputFilePath,
       "-c:v",
